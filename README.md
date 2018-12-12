@@ -1,6 +1,6 @@
 # Click Through Rate Prediction
 
-###Overview
+### Overview
 
 User responses i.e. Click Through Rate is a critical part of many web applications including web search, personalised recommendation and online advertising. Click Through Rate(CTR) measures the response of a user towards an advertisement. The motivation of the project come from a Kaggle competition named Display Advertising Challenge of 2014.The following python scripts are used for predicting:
 
@@ -18,7 +18,7 @@ User responses i.e. Click Through Rate is a critical part of many web applicatio
 - __For Gradient Boosted Decision Trees__
   - gb_clasiifier.py : This file takes the pre-processed file and predict the results.
 
-###Problem Description
+### Problem Description
 
 The objective of the project was to predict whether an adversiment will be clicked, based on the traffic logs. The dataset was publicly available and provided by Criteo lab. According to the description, the data was a week's data traffic. Data was conprised of two types of features: categorical and continuos. The training file consist of around 45 million records whereas we performed testing on 6 million records.
 
@@ -39,6 +39,6 @@ The approach followed for this project involved three machine learning algorithm
 - __Gradient Boosted Decision Trees__
   - Run gb_clasiifier.py \<source-input-file>
 
-###Project Report
+### Project Report
 
 Please refer dsp_final_report.pdf for detailed information of the project implementation.
